@@ -4,7 +4,7 @@
 
 **Grupo: Três alunos**
 
-**Valor: 17 pontos**
+**Valor: 13 pontos**
 
 ## Desenvolvimento de um Sistema de Informação
 
@@ -16,9 +16,9 @@ Este trabalho tem como objetivo mostrar ao aluno que os conhecimentos adquiridos
 
 Segue abaixo uma lista de possíveis temas de trabalho:
 
-* Mobilidade urbana (sistemas de carona, compartilhamento de transportes, etc.) - **Gustavo, Paulo e Raul**: *Uber + Sedex*
+* Mobilidade urbana (sistemas de carona, compartilhamento de transportes, etc.)
 * Organização e promoção de eventos (Bilheteria, portal de eventos, etc.)
-* Educação & Aprendizado (Plataformas de aprendizado) - **Bruzzi, Matheus e Eduardo:** *Sistema de aulas particulares*
+* Educação & Aprendizado (Plataformas de aprendizado)
 * Causas sociais (Plataformas para gestão de doações)
 
 É importante ressaltar que essa lista é **sugestiva**. Isto é, o grupo pode selecionar uma proposta fora da lista descrita acima.
@@ -31,41 +31,33 @@ Independentemente do tema escolhido pelo grupo, seu trabalho deverá cumprir **o
 
 2. **Suporte a pelo menos dois atores distintos:** Seu sistema deverá suportar a atuação de pelo menos dois atores distintos com suas respectivas ações (ex.: usuário e administrador).
 
-3. **Solução deverá conter pelo menos quatro requisitos:** Sua solução deverá implementar pelo menos quatro requisitos no formato de funcionalidades.
-
-4. **Armazenamento no formato de arquivos texto:** Seu sistema deverá armazenar suas informações no utilizando arquivos texto.
-	* É claro que você poderá utilizar formas automatizadas para recuperar e armazenar os dados, tais como formatos estruturados de armazenamento (XML ou JSON).
+3. **Solução deverá conter pelo menos três requisitos:** Sua solução deverá implementar pelo menos três requisitos no formato de funcionalidades.
 
 ## Cronograma
 
 O trabalho será avaliado parcialmente, conforme cronograma definido abaixo. Essa organização permite ao aluno não se perder durante o desenvolvimento do sistema, uma vez que provê uma estimativa confiável de cumprimento do prazo do trabalho.
 
-| Data       | O que deve ser entregue?                        | Valor     | TAG   |
-|------------|-------------------------------------------------|-----------|-------|
-| 27/06/2017 | Grupo, Tema & Requisitos                        | --        | --    |
-| 04/07/2017 | Sprint 01: Protótipos HTML de dois requisitos   | 02 pontos | HTML  |
-| 13/07/2017 | Sprint 02: Implementação do requisito R1        | 02 pontos | R1    |
-| 01/08/2017 | Sprint 03: Implementação dos requisitos R2 e R3 | 04 pontos | R2/R3 |
-| 08/08/2017 | Sprint 04: Implementação do requisito R4        | 02 pontos | R4    |
-| 17/08/2017 | Sprint 05: Implementação da autenticação        | 02 pontos | Auth  |
-| 24/08/2017 | Apresentação do trabalho                        | 05 pontos | 1.0   |
+| Data       | O que deve ser entregue?                                  | TAG    |
+|------------|-----------------------------------------------------------|--------|
+| 02/07/2018 | Grupo, Tema & Requisitos                                  | --     |
+| 12/07/2018 | Sprint 01: Protótipos HTML de dois requisitos             | HTML   |
+| 09/08/2018 | Sprint 02: Implementação do requisito R1 e R2             | R1/R2  |
+| 20/08/2018 | Sprint 03: Implementação dos requisitos R3 e Autenticação | R2/Auth|
+| 27/08/2018 | Apresentação do trabalho                                  | 1.0    |
 
-
-* **27/06/2017:** O grupo deverá fazer um fork deste repositório e alterar o `README.md` do projeto de forma a incluir os componmentes do grupo, qual foi o tema selecionado, e quais requisitos seu sistema irá implementar.
-* **04/07/2017:** O grupo deverá implementar o protótipo em HTML de dois requisitos selecionados anteriormente. É importante que o grupo converse com o professor para decidir quais requisitos são mais fáceis de se prototipar e implementar primeiro.
-* **13/07/2017:** O grupo deverá implementar pelo menos um dos requisitos prototipados anteriormente.
-* **01/08/2017:** O grupo deverá implementar pelo menos dois requisitos do sistema, somando três requisitos implementados no total.
-* **08/08/2017:** O grupo deverá ter implementado todos os requisitos do sistema.
-* **17/08/2017:** O grupo deverá ter implementado os mecanimos de autenticação e identificação dos usuários do sistema.
-* **24/08/2017:** Apresentação do trabalho final em sala de aula.
+* **02/07/2018:** O grupo deverá fazer um fork deste repositório e alterar o `README.md` do projeto de forma a incluir os componmentes do grupo, qual foi o tema selecionado, e quais requisitos seu sistema irá implementar.
+* **12/07/2018:** O grupo deverá implementar o protótipo em HTML de dois requisitos selecionados anteriormente. É importante que o grupo converse com o professor para decidir quais requisitos são mais fáceis de se prototipar e implementar primeiro.
+* **09/08/2018:** O grupo deverá implementar pelo menos dois requisitos prototipados anteriormente.
+* **20/08/2018:** O grupo deverá implementar o requisito restante junto do mecanismo de autenticação.
+* **27/08/2018:** Apresentação do trabalho final em sala de aula.
 
 As entregas deverão ser marcadas com tags do próprio Git, indicadas na tabela acima. Leia sobre tags [aqui](http://imasters.com.br/artigo/21127/software-livre/como-trabalhar-com-tags-no-git/?trace=1519021197&source=single).
 
 ## Apresentação
 
-A apresentação do trabalho ocorrerá no dia **24/08/2017**. Você deverá apresentar seu trabalho para seus colegas de turma junto de uma **banca de avaliação** que irá avaliar seu trabalho.
+A apresentação do trabalho ocorrerá no dia **27/08/2018**. Você deverá apresentar seu trabalho para seus colegas de turma junto de uma **banca de avaliação** que irá avaliar seu trabalho.
 
-A banca de avaliação contará, a princípio, com **um especialista no desenvolvimento de software** que irá avaliar principalmente os aspectos internos do sistema (código, estruturação, etc.) e **um usuário comum**, que irá avaliar principalmente os aspectos externos do sistema (design, usabilidade, etc.).
+A banca de avaliação contará, a princípio, com **dois especialistas no desenvolvimento de software** que irá avaliar principalmente os aspectos internos do sistema (código, estruturação, etc.).
 
 A apresentação será dividida em duas partes:
 
@@ -84,7 +76,10 @@ Contudo, o desenvolvimento do trabalho **deve** englobar, de alguma forma, os se
 * PHP: Classes, funções, etc.
 * PHP: Sessões e Cookies
 * PHP: Arquivos
+* Banco de Dados
 
-## Composição dos grupos
+## Entrega
 
-Os grupos deverão, **obrigatóriamente**, ser compostos por alunos das duas extintas subturmas (103 e 106).
+O trabalho deverá ser entregue no formato de pull-request. Além disso, o grupo deverá elaborar um pequeno documento (máximo 3 páginas), que ilustram o problema e sua motivação para resolvê-lo, a solução proposta, e as decisões técnicas tomadas na implementação do projeto.
+
+Esse documento deverá ser entregue no dia da apresentação do trabalho.
