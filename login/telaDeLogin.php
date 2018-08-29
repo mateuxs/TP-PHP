@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cronograma COLTEC</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,12 +16,12 @@
                     <h2>Faça seu login</h2>
                 </div>             
                 <div id="formulario" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <form>
+                    <form action="login.php" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Login">
+                            <input type="text" class="form-control" id="login" name="login_p" placeholder="Login">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="senha">
+                            <input type="password" class="form-control" id="senha" name="senha_p" placeholder="senha">
                         </div>
                     </form>
                 </div>
